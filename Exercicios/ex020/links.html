@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*: = pseudoclasse
+          :: = pseudoelement
+          > = children*/
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            color: rgb(170, 241, 3);
+            text-decoration: underline;
+            
+        }
+        .especial {
+            background-color: aqua;
+        }
+        a:active {
+            color: aqua;
+        }
+        a::after {
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <li><a href="https://www.instagram.com/ghosth_one/"target = "_blank">Instagram</a></li>
+
+    <li class="especial"><a href="https://web.facebook.com/patrick.paulo.792/" target="_blank">Facebook</a></li>
+
+    <li><a href="https://www.youtube.com/channel/UCIpkN4kPxjPrRXQKSPGWU7Q" target="_blank">Youtube</a></li>
+
+    
+</body>
+</html>

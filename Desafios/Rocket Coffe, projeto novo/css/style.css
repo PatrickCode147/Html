@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.blur1 {
+    position: absolute;
+    bottom: -43px;
+    left: 0%;
+    margin: auto;
+    
+}
+
+.blur2 {
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    margin: auto;
+}
+
+.coffe {
+    position: absolute;
+    right: 18%;
+    bottom: -43px;
+    margin: auto;
+}
